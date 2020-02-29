@@ -24,8 +24,8 @@ public class Facade {
     private static final EntityManagerFactory EMF = Persistence.createEntityManagerFactory("pu");
     private static EntityManager em;
 
-    public Customer createCustomer(String name, String email) {
-        Customer cust = new Customer(name, email);
+    public Customer createCustomer(Customer customer) {
+        Customer cust = customer;
         em = EMF.createEntityManager();
         try {
             em.getTransaction().begin();

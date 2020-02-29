@@ -61,6 +61,12 @@ public class Order implements Serializable {
         }
             return price;
     }
+    
+    public void addOrderLine(OrderLine orderLine) {
+        if (orderLines.contains(orderLine)) {
+            orderLines.add(orderLine);
+        }
+    }
         
     
 
