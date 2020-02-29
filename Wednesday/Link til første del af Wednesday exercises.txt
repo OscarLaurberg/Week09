@@ -1,0 +1,3 @@
+Her findes både master branch og Relations branch på Wednesday exercises:
+
+https://github.com/OscarLaurberg/Flow2Week1
