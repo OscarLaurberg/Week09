@@ -28,10 +28,10 @@ public class Main {
         
         Facade facade = new Facade();
 
-    Customer c1 = new Customer("Niels", "niller@123.dk");
-    Customer c2 = new Customer("Peter", "pet@123.dk");
-    ItemType itemType1 = new ItemType("Item 1", "This is the first item", 10);
-    ItemType itemType2 = new ItemType("Item 2", "This is some other item", 20);
+    Customer c1 = new Customer("Derp","Derpsen@derp.dk");
+    Customer c2 = new Customer("Jim", "jim@jim.dk");
+    ItemType itemType1 = new ItemType("Snescooter", "mega sprød", 99);
+    ItemType itemType2 = new ItemType("Karse", "Hjemmegroet", 6);
 
     facade.createCustomer(c1);
     facade.createCustomer(c2);
@@ -52,4 +52,5 @@ public class Main {
     facade.createOrder(order);
     
     
+}
 }
